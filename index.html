@@ -1,79 +1,48 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-       <meta name="viewport" content="width=device=width, initial-scale=1.0">
-       <title>AluraBooks</title>
-       <link rell="stylesheet" href="style.css">
-       <link rell="stylesheet" href="reset.css">
-    </head>
-    <body>
-        <header class="cabeçalho">
-            <div class="container">
-                <input type="checkbox" id="menu" class="container_botão">
-                <label for="menu">
-            <span class="cabeçalho_menu-hamburguer container_imagem"></span>
-                </label>
-                <ul class="lista-menu">
-                    <li class="lista-menu_título">Categorias</li>
-                    <li class="lista-menu_item">
-                        <a href="#" class="lista-menu_link">Propagação</a>
-                    </li>
-                    <li class="lista-menu_item"></li>
-                    <a href="#" class="lista-menu_link">Front-End</a>
-                </li>
-                <li class="lista-menu_item"></li>
-                <a href="#" class="lista-menu_link">Imfraestrutura</a>
-                </li>
-                <li class="lista-menu_item"></li>
-                <a href="#" class="lista-menu_link">Business</a>
-            </li>
-            </ul>
-             <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container_imagem">
-            </div>
-            <div class="container">
-                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
-                <a href="#"><img src="img/Compras.svg" alt="sacola de compras"  class="container_imagem"></a>
-                <a href="#"><img src="img/Usuário.svg" alt="meu perfil"  class="container_imagem"></a>
-            </div>   
-        </header>
-      <section class="banner">
-        <h2 class="banner_título">já sabe por onde começar?</h2>
-        <p class="baner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p> 
-        <input type="search" class="banner_pesquisa"placeholder="qual será sua próxima leitura?">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      </section>
-    <section class="carrossel">
-        <h2 class="carrossel_titulo">Novos lançamentos</h2>
-    <!--Slider main contaneir-->
-    <div class="swiper">
-        <!--Additional required wrapper-->
-        <div class="swiper-wrapper">
-                <!--Slides-->
-                <div class="swiper-wrapper">--Slide 1</div>
-                <div class="swiper-wrapper">--Slide 2</div>
-                <div class="swiper-wrapper">--Slide 3</div>
-                
-                ...
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+    <title>Alura MIDI</title>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-    </div>
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <h1>Alura Midi de Gabrile e Meliza </h1>
+
+    <section class="teclado">
+        <button  onclick="alert('Pom')" class="tecla tecla_pom">Pom</button>
+        <button  onclick="alert('Clap')"class="tecla tecla_clap">Clap</button>
+        <button  onclick="alert('Tim')"class="tecla tecla_tim">Tim</button>
+
+        <button  onclick="alert('Puff')class="tecla tecla_puff">Puff</button>
+        <button  onclick="alert('Splash')"class="tecla tecla_splash">Splash</button>
+        <button class="tecla tecla_toim">Toim</button>
+
+        <button class="tecla tecla_psh">Psh</button>
+        <button class="tecla tecla_tic">Tic</button>
+        <button class="tecla tecla_tom">Tom</button>
     </section>
-    <script src="https:/cdn.jsdelivr.net/npm/swiper@9/swiper.bundle.min.js"></script>
+
+    <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+    <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+    <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
+    <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
+    <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+    <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+    <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+    <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
+
 </body>
-<script>
-    const swiper = new
-</script>
-
-
-
- 
-        
+</html>
