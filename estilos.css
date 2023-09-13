@@ -1,5 +1,5 @@
 :root {
-  --cinza: #aaaaaa;
+  --roxo: #8b1aa1;
   --vermelha: #e0263b;
   --azul: #3032af;
   --branca: #fff;
@@ -35,7 +35,7 @@ h1 {
 .tecla {
   background-color: var(--branca);
   border-radius: 30px;
-  box-shadow: 3px 3px 0 var(--cinza);
+  box-shadow: 3px 3px 0 var(--roxo);
   color: var(--vermelha);
   cursor: pointer;
   height: 120px;
